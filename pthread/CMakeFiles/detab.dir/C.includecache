@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/Share/LeetCode/pthread/apue.h
+sys/types.h
+-
+sys/stat.h
+-
+sys/termios.h
+-
+sys/ioctl.h
+-
+stdio.h
+-
+stdlib.h
+-
+stddef.h
+-
+string.h
+-
+unistd.h
+-
+signal.h
+-
+
+/mnt/Share/LeetCode/pthread/cleanup.c
+apue.h
+/mnt/Share/LeetCode/pthread/apue.h
+pthread.h
+-
+
+/mnt/Share/LeetCode/pthread/pthread.c
+stdio.h
+-
+stdlib.h
+-
+pthread.h
+-
+

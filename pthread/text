@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<pthread.h>
+
+#define
+#define N 10
+static int sum_w;
+
+struct mypara
+{
+   char* text;
+   int begin_offer;
+   int end_offset;
+};
+

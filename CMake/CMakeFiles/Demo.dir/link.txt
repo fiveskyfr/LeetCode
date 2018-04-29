@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/Demo.dir/cmake1.c.o  -o Demo -rdynamic 

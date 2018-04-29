@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/detab.dir/cleanup.c.o CMakeFiles/detab.dir/pthread.c.o CMakeFiles/detab.dir/alarm.c.o CMakeFiles/detab.dir/error.c.o  -o detab -rdynamic 
